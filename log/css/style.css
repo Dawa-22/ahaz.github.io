@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: arial;
+  border: none;
+}
+
+body{
+  background: linear-gradient(#2A6F97,#468FAF,#61A5C2,#89C2D9);
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.logo{
+  margin: 5px 30px;
+  font-size: 30px;
+  font-weight: 800;
+  color: #ffff;
+  position: fixed;
+}
+.main{
+  width: 400px;
+  height: 550px;
+  margin: 30px auto;
+  border:1px solid rgb(234, 209, 209);
+  border-radius: 10px;
+}
+.flex {
+ display: flex;
+ justify-content: center;
+ margin: 30px 0;
+ font-size: 23px;
+ color: #ffff;
+}
+.Email input ,.pass input{
+  width: 65%;
+  height: 5vh;
+  border-radius: 2px;
+  border: none;
+  padding-left: 10px;
+}
+.remember{
+  gap: 10px;
+  font-size: 18px;
+}
+.submit button{
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color:rgb(249, 230, 199)
+}
+.cotinue{
+  font-size: 19px;
+}
+.cont button{
+  padding: 10px 30px;
+  border-radius: 5px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.cr{
+  font-size: 15px;
+  margin-top: -10px;
+  cursor: pointer;
+}
+.pr{
+  font-size: 13px;
+  margin-top: -20px;
+}
+button:hover{
+  opacity: 0.8;
+}
+a{
+  color: black;
+}
+a:hover{
+  text-decoration: underline;
+}
